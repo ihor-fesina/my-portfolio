@@ -14,7 +14,7 @@ const Hero = () => {
         <h3
             className="
           z-10
-          block lg:hidden text-md sm:text-xl mb-6 sm:mb-10 text-grey-light uppercase font-bold
+          block lg:hidden text-md sm:text-xl mb-4 text-grey-light uppercase font-bold
           sticky top-0 -mx-6 sm:-mx-12 w-screen bg-primary-darkBlue px-6 sm:px-12 py-3 backdrop-blur bg-opacity-60
         "
         >
@@ -27,7 +27,7 @@ const Hero = () => {
           I bring both technical expertise and business understanding to every project.
         </p>
         <p>
-          Currently, I&apos;m working at <span>Publicis Groupe (Kindred)</span> where I build and maintain web apps for clients like Pfizer using technologies like Next.js, Gatsby, and Contentful.
+          Currently, I&apos;m working at <span>Publicis Groupe</span> where I build and maintain web apps for clients like Pfizer using technologies like Next.js, Gatsby, and Contentful.
           I focus on code quality, testing (Jest, RTL), and team collaboration, often leading code reviews and contributing to internal tooling to boost developer efficiency.
         </p>
         <p>

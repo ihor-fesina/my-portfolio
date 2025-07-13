@@ -38,7 +38,7 @@ const Navigation = () => {
         document.getElementById(section)?.scrollIntoView({ behavior: "smooth" });
     };
         return (
-            <ul className="hidden lg:flex mt-20 flex-col items-start gap-6">
+            <ul className="flex mt-10 lg:mt-20 flex-col items-start gap-2 lg:gap-6">
                 {SECTIONS.map((section) => (
                     <li
                         key={section}

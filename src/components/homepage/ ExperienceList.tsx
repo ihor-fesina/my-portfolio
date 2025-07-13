@@ -3,7 +3,7 @@ import ExperienceItem from "@/components/common/ExperienceItem";
 
 const ExperienceList = () => {
   return (
-    <div className="scroll-mt-24 mt-20 lg:mt-24" id="experience">
+    <div className="scroll-mt-24 mt-10 lg:mt-24" id="experience">
       <h3
         className="
           z-10

@@ -56,9 +56,9 @@ export default function RootLayout({children,}: Readonly<{ children: React.React
         <html lang="en">
             <body className={`${inter.variable} antialiased bg-blue-dark`}>
             <GlowEffect>
-                <div className="container flex flex-col lg:flex-row justify-between sm:!px-12 relative min-h-screen h-full">
+                <div className="container flex flex-col lg:flex-row justify-between mx-auto px-6 relative min-h-screen h-full">
                     <Sidebar/>
-                    <div className="flex-1 pt-8 pb-16 lg:py-24">
+                    <div className="flex-1 pt-0 lg:pt-8 pb-16 lg:py-24">
                         {children}
                     </div>
                 </div>
