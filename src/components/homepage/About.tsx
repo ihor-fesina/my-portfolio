@@ -9,12 +9,12 @@ const Hero = () => {
   return (
       <div
           id="about"
-          className="scroll-mt-24 flex flex-col gap-6 text-md text-grey-normal [&>p]:leading-normal [&>p>span]:text-primary-bright [&>p>span]:font-bold"
+          className="scroll-mt-24 flex flex-col gap-6 text-md text-grey-normal [&>p]:leading-normal [&>p>span]:text-grey-light [&>p>span]:font-bold"
       >
         <h3
             className="
           z-10
-          block lg:hidden text-md sm:text-xl mb-6 sm:mb-10 text-primary-bright uppercase font-bold
+          block lg:hidden text-md sm:text-xl mb-6 sm:mb-10 text-grey-light uppercase font-bold
           sticky top-0 -mx-6 sm:-mx-12 w-screen bg-primary-darkBlue px-6 sm:px-12 py-3 backdrop-blur bg-opacity-60
         "
         >

@@ -1,6 +1,7 @@
 import type {Metadata} from "next";
 import {Inter} from "next/font/google";
 import Sidebar from "@/components/layout/Sidebar";
+import GlowEffect from "@/components/layout/GlowEffect";
 import "./globals.css";
 import React from "react";
 
@@ -54,12 +55,14 @@ export default function RootLayout({children,}: Readonly<{ children: React.React
     return (
         <html lang="en">
             <body className={`${inter.variable} antialiased bg-blue-dark`}>
+            <GlowEffect>
                 <div className="container flex flex-col lg:flex-row justify-between sm:!px-12 relative min-h-screen h-full">
                     <Sidebar/>
                     <div className="flex-1 pt-8 pb-16 lg:py-24">
                         {children}
                     </div>
                 </div>
+            </GlowEffect>
             </body>
         </html>
     );

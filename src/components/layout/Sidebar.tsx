@@ -27,7 +27,7 @@ const Sidebar = () => {
             href="/resume.pdf"
             target="_blank"
             className="
-              text-md sm:text-lg text-primary-bright font-bold hover:text-teal-400 transition ease-in-out
+              text-md sm:text-lg text-grey-light font-bold hover:text-teal-400 transition ease-in-out
               [&>svg]:hover:translate-x-0.5 [&>svg]:hover:-translate-y-0.5
             "
           >
