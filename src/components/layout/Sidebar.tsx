@@ -1,3 +1,5 @@
+import Navigation from "../common/Navigation";
+import ArrowIcon from "../ui/icons/ArrowIcon";
 import Link from "next/link";
 
 const Sidebar = () => {
@@ -18,6 +20,19 @@ const Sidebar = () => {
             the web.
           </p>
           <Navigation />
+        </div>
+        <div className="mt-10 lg:mt-0">
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            className="
+              text-md sm:text-lg text-primary-bright font-bold hover:text-teal-400 transition ease-in-out
+              [&>svg]:hover:translate-x-0.5 [&>svg]:hover:-translate-y-0.5
+            "
+          >
+            View Full Résumé
+            <ArrowIcon classNames="relative ml-1 bottom-[1px] inline-block h-4 w-4 transition-transform" />
+          </a>
         </div>
       </div>
     </header>
