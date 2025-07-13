@@ -17,6 +17,7 @@ const Sidebar = () => {
             I create impressive, innovative and impactful software solutions for
             the web.
           </p>
+          <Navigation />
         </div>
       </div>
     </header>
