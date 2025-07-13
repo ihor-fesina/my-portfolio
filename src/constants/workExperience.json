@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "years": "Dec 2023 – Present",
+    "role": "Frontend Developer",
+    "company": "Publicis Groupe (Kindred)",
+    "link": "https://www.kindred.cz/en/",
+    "description": "Built and maintained 8 websites for various clients using Contentful CMS, Next.js, and GatsbyJS. Improved development speed and quality by implementing boilerplate improvements and automation. Ensured 80%+ test coverage using Jest and React Testing Library. Led code reviews, onboarded new team members, and contributed to Pfizer projects under strict regulatory standards.",
+    "tags": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Gatsby",
+      "Tailwind CSS",
+      "Contentful",
+      "Jest",
+      "RTL",
+      "SonarQube"
+    ]
+  },
+  {
+    "id": 2,
+    "years": "Dec 2022 – Dec 2023",
+    "role": "Frontend Developer",
+    "company": "Česká Spořitelna",
+    "link": "https://www.csas.cz/",
+    "description": "Designed and implemented high-quality web applications in the fintech sector. Built internal and client-facing apps (e.g., George). Digitized processes for card operations and refunds. Wrote and executed test scenarios to ensure reliability. Collaborated with analysts and backend teams to integrate REST APIs and maintain 5 production-grade applications.",
+    "tags": [
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "REST",
+      "Jest",
+      "RTL",
+      "GitLab",
+      "Jira"
+    ]
+  }
+]
