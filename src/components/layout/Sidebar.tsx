@@ -1,4 +1,5 @@
 import Navigation from "../common/Navigation";
+import Socials from "../common/Socials";
 import ArrowIcon from "../ui/icons/ArrowIcon";
 import Link from "next/link";
 
@@ -33,6 +34,7 @@ const Sidebar = () => {
             View Full Résumé
             <ArrowIcon classNames="relative ml-1 bottom-[1px] inline-block h-4 w-4 transition-transform" />
           </a>
+          <Socials />
         </div>
       </div>
     </header>
