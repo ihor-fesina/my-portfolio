@@ -9,7 +9,7 @@ const Hero = () => {
   return (
       <div
           id="about"
-          className="scroll-mt-24 flex flex-col gap-6 text-md text-primary-grey [&>p]:leading-normal [&>p>span]:text-primary-bright [&>p>span]:font-bold"
+          className="scroll-mt-24 flex flex-col gap-6 text-md text-grey-normal [&>p]:leading-normal [&>p>span]:text-primary-bright [&>p>span]:font-bold"
       >
         <h3
             className="

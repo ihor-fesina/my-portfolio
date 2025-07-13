@@ -37,7 +37,7 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
       >
         <div className="flex flex-col sm:flex-row">
           <div className="mb-2 sm:mb-0 sm:mr-8 max-w-[145px] w-full">
-            <p className="text-sm text-primary-grey">{years}</p>
+            <p className="text-sm text-grey-normal">{years}</p>
           </div>
           <div className="flex-1">
             <p
@@ -59,7 +59,7 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
                 "
               />
             </p>
-            <p className="mb-4 text-primary-grey text-sm leading-normal">
+            <p className="mb-4 text-grey-normal text-sm leading-normal">
               {description}
             </p>
             <div className="flex flex-wrap gap-2.5">
@@ -79,7 +79,7 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
       >
         <div className="flex flex-col sm:flex-row">
           <div className="mb-2 sm:mb-0 sm:mr-8 max-w-[145px] w-full">
-            <p className="text-sm text-primary-grey">{years}</p>
+            <p className="text-sm text-grey-normal">{years}</p>
           </div>
           <div className="flex-1">
             <a
@@ -105,7 +105,7 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
                 "
               />
             </a>
-            <p className="mb-4 text-primary-grey text-sm leading-normal">
+            <p className="mb-4 text-grey-normal text-sm leading-normal">
               {description}
             </p>
             <div className="flex flex-wrap gap-2.5">

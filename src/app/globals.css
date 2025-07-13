@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-    --color-gray-light: #E2E8F0;
-    --color-gray-normal: #94A3B8;
-    --color-gray-dark: #64748B;
+    --color-grey-light: #E2E8F0;
+    --color-grey-normal: #94A3B8;
+    --color-grey-dark: #64748B;
     --color-blue-dark: #020f20;
 }
 
 @layer base {
     body {
-        @apply text-gray-light;
+        @apply text-grey-light;
     }
 }
 
