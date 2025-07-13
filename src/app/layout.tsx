@@ -56,9 +56,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} antialiased  bg-blue-dark w-[100vw] h-[10000px]`}
+        className={`${inter.variable} antialiased bg-blue-dark`}
       >
+      <div className='container flex flex-col'>
         {children}
+      </div>
       </body>
     </html>
   );
