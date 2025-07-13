@@ -27,17 +27,17 @@ const Hero = () => {
           I bring both technical expertise and business understanding to every project.
         </p>
         <p>
-          Currently, I&apos;m working at <span>Publicis Groupe</span> where I build and maintain web apps for clients like Pfizer using technologies like Next.js, Gatsby, and Contentful.
-          I focus on code quality, testing (Jest, RTL), and team collaboration, often leading code reviews and contributing to internal tooling to boost developer efficiency.
+          Currently, I&apos;m working at <span>Publicis Groupe</span> where I build and maintain web apps for various clients using modern tech stack including Next.js, Gatsby.js and React,
+          I focus on code quality, testing (Jest, RTL), and team collaboration, contributing to internal tooling to boost developer efficiency.
         </p>
         <p>
           Previously at <span>Česká Spořitelna</span>, I developed banking apps, led frontend improvements, and collaborated with analysts and backend developers to deliver reliable and well-tested solutions that supported cards, ATMs, and refund operations.
         </p>
         <p>
-          My toolkit includes React, TypeScript, Tailwind, GraphQL, REST, and tools like GitLab, Jira, Contentful, and Veeva. I&apos;m always eager to work in teams that value quality, innovation, and user-first design.
+          My toolkit includes React, TypeScript, and many complementary tools and libraries. I&apos;m always eager to work in teams that value quality, innovation, and user-first design.
         </p>
         <p>
-          Outside of tech, I&apos;m passionate about psychology, behavioral science, fitness, and travel.
+          Outside of tech, I&apos;m passionate about psychology, natural science, fitness, and travel.
           I believe that great products start with understanding people—and I strive to create experiences that are both meaningful and impactful.
         </p>
       </div>
