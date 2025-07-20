@@ -3,7 +3,7 @@ import Tag from "../ui/Tag";
 import React from "react";
 import { GithubIcon } from "../ui/icons";
 
-interface IExperienceItemProps {
+interface IProjectItemProps {
   years: string;
   role: string;
   company: string;
@@ -13,7 +13,7 @@ interface IExperienceItemProps {
   github?: string;
 }
 
-const ExperienceItem: React.FC<IExperienceItemProps> = ({
+const ProjectItem: React.FC<IProjectItemProps> = ({
   years,
   role,
   company,
@@ -49,7 +49,7 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
                 group-hover:text-teal-400
               "
             >
-              {role} {company && `· ${company}`}
+              {role} · {company}
               <ArrowIcon
                 classNames="
                   relative bottom-0.5
@@ -68,6 +68,7 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
                   rel="noopener noreferrer"
                   className="ml-2 text-grey-normal hover:text-teal-400 transition-colors"
                   title="View on GitHub"
+                  onClick={e => e.stopPropagation()}
                 >
                   <GithubIcon />
                 </a>
@@ -106,7 +107,7 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
                 hover:text-teal-400
               "
             >
-              {role} {company && `· ${company}`}
+              {role} · {company}
               <ArrowIcon
                 classNames="
                   relative bottom-0.5
@@ -125,6 +126,7 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
                   rel="noopener noreferrer"
                   className="ml-2 text-grey-normal hover:text-teal-400 transition-colors"
                   title="View on GitHub"
+                  onClick={e => e.stopPropagation()}
                 >
                   <GithubIcon />
                 </a>
@@ -145,4 +147,4 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
   );
 };
 
-export default ExperienceItem;
+export default ProjectItem;

@@ -21,10 +21,10 @@ const Hero = () => {
           About
         </h3>
         <p>
-          I&apos;m <span>Ihor Fesina</span>, a Frontend Developer based in Prague, Czechia.
+          I&apos;m Frontend Developer based in Prague, Czechia.
           I specialize in building performant, accessible, and scalable web applications.
-          With over {yearsOfExperience}+ years of experience in industries like finance, healthcare, and consumer goods,
-          I bring both technical expertise and business understanding to every project.
+          With over {yearsOfExperience}+ years of experience in industries like finance and healthcare
+          I bring both technical expertise to every project.
         </p>
         <p>
           Currently, I&apos;m working at <span>Publicis Groupe</span> where I build and maintain web apps for various clients using modern tech stack including Next.js, Gatsby.js and React,

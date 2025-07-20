@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Crypro board",
+    "link": "https://crypto-tracker-tau-five.vercel.app/",
+    "previewImage": "/projectThumbnails/crypto-preview.png",
+    "description": "Crypto Tracker is a modern React application using TypeScript, Redux, TailwindCSS, and the Coinranking API. It allows you to view prices, statistics, charts, and detailed information about cryptocurrencies.",
+    "tags": [
+      "TypeScript",
+      "React",
+      "React Router",
+      "Tailwind CSS",
+      "RTK Query"
+    ],
+    "github": "https://github.com/ihor-fesina/crypto-tracker"
+  }
+]
