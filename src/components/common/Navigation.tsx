@@ -2,7 +2,7 @@
 
 import {useEffect, useState} from "react";
 
-const SECTIONS = ["about", "experience"] as const;
+const SECTIONS = ["about", "experience", "projects"] as const;
 type SectionType = typeof SECTIONS[number];
 const Navigation = () => {
         const [active, setActive] = useState<SectionType>(SECTIONS[0]);
