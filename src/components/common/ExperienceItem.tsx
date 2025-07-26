@@ -2,6 +2,7 @@ import ArrowIcon from "../ui/icons/ArrowIcon";
 import Tag from "../ui/Tag";
 import React from "react";
 import { GithubIcon } from "../ui/icons";
+import { replaceSpaces } from "@/utils/formatTags";
 
 interface IExperienceItemProps {
   years: string;
@@ -78,7 +79,7 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
             </p>
             <div className="flex flex-wrap gap-2.5">
               {tags.map((tag, index) => (
-                <Tag key={`${tag}_${index}`} content={tag} />
+                <Tag key={`${replaceSpaces(tag)}_${index}`} content={tag} />
               ))}
             </div>
           </div>
@@ -134,8 +135,8 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
               {description}
             </p>
             <div className="flex flex-wrap gap-2.5">
-              {tags.map((tag, index) => (
-                <Tag key={`${tag}_${index}`} content={tag} />
+              {tags.map((tag) => (
+                <Tag key={replaceSpaces(tag)} content={tag} />
               ))}
             </div>
           </div>
