@@ -1,6 +1,8 @@
 import ArrowIcon from "../ui/icons/ArrowIcon";
 import Tag from "../ui/Tag";
 import React from "react";
+import { GithubIcon } from "../ui/icons";
+import { replaceSpaces } from "@/utils/formatTags";
 
 interface IExperienceItemProps {
   years: string;
@@ -9,6 +11,7 @@ interface IExperienceItemProps {
   link: string;
   description: string;
   tags: string[];
+  github?: string;
 }
 
 const ExperienceItem: React.FC<IExperienceItemProps> = ({
@@ -18,6 +21,7 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
   link,
   description,
   tags,
+  github,
 }) => {
   return (
     <>
@@ -42,11 +46,11 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
           <div className="flex-1">
             <p
               className="
-                mb-2 font-bold transition ease-in-out
+                mb-2 font-bold transition ease-in-out flex items-center gap-2
                 group-hover:text-teal-400
               "
             >
-              {role} · {company}
+              {role} {company && `· ${company}`}
               <ArrowIcon
                 classNames="
                   relative bottom-0.5
@@ -58,13 +62,24 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
                   ml-1 translate-y-px
                 "
               />
+              {github && (
+                <a
+                  href={github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-2 text-grey-normal hover:text-teal-400 transition-colors"
+                  title="View on GitHub"
+                >
+                  <GithubIcon />
+                </a>
+              )}
             </p>
             <p className="mb-4 text-grey-normal text-sm leading-normal">
               {description}
             </p>
             <div className="flex flex-wrap gap-2.5">
               {tags.map((tag, index) => (
-                <Tag key={`${tag}_${index}`} content={tag} />
+                <Tag key={`${replaceSpaces(tag)}_${index}`} content={tag} />
               ))}
             </div>
           </div>
@@ -88,11 +103,11 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
               rel="noreferrer"
               className="
               group
-                mb-2 inline-block font-bold transition ease-in-out
+                mb-2 inline-block font-bold transition ease-in-out flex items-center gap-2
                 hover:text-teal-400
               "
             >
-              {role} · {company}
+              {role} {company && `· ${company}`}
               <ArrowIcon
                 classNames="
                   relative bottom-0.5
@@ -104,13 +119,24 @@ const ExperienceItem: React.FC<IExperienceItemProps> = ({
                   ml-1 translate-y-px
                 "
               />
+              {github && (
+                <a
+                  href={github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-2 text-grey-normal hover:text-teal-400 transition-colors"
+                  title="View on GitHub"
+                >
+                  <GithubIcon />
+                </a>
+              )}
             </a>
             <p className="mb-4 text-grey-normal text-sm leading-normal">
               {description}
             </p>
             <div className="flex flex-wrap gap-2.5">
-              {tags.map((tag, index) => (
-                <Tag key={`${tag}_${index}`} content={tag} />
+              {tags.map((tag) => (
+                <Tag key={replaceSpaces(tag)} content={tag} />
               ))}
             </div>
           </div>
