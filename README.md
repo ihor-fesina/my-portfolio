@@ -2,6 +2,11 @@
 
 A modern, responsive portfolio website built with Next.js and Tailwind CSS. This project showcases my professional experience, skills, and projects in an elegant, user-friendly interface.
 
+## 🚀 Deploy
+
+Check out the live version of the portfolio here:  
+👉 [my-portfolio-fesina.vercel.app](https://my-portfolio-fesina.vercel.app/)
+
 ## 🚀 Features
 
 - **Responsive Design** - Optimized for all devices and screen sizes
@@ -10,6 +15,24 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS. This
 - **Performance Optimized** - Built with Next.js for optimal loading speeds
 - **SEO Friendly** - Proper meta tags and structured data
 - **Dark Theme** - Elegant dark color scheme with teal accents
+
+## 📋 Featured Projects
+
+### Crypto Board
+A comprehensive cryptocurrency tracking application built with React and TypeScript. Features real-time price monitoring, detailed statistics, interactive charts, and cryptocurrency information.
+
+**Live Demo**: [crypto-tracker-tau-five.vercel.app](https://crypto-tracker-tau-five.vercel.app/)  
+**GitHub**: [crypto-tracker](https://github.com/ihor-fesina/crypto-tracker)
+
+**Key Features:**
+- Real-time cryptocurrency prices and statistics
+- Interactive price charts and historical data
+- Detailed coin information and market analysis
+- News integration via [Crypto News API](https://rapidapi.com/apiwizard/api/crypto-news51)
+- Modern UI with TypeScript, Redux, and TailwindCSS
+- Responsive design for all devices
+
+**Tech Stack**: TypeScript, React, Redux Toolkit, RTK Query, TailwindCSS, Chart.js
 
 ## 🛠️ Tech Stack
 
