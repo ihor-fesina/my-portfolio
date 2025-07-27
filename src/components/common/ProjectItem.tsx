@@ -73,7 +73,7 @@ const ProjectItem: React.FC<IProjectItemProps> = ({ project }) => {
             {project.description}
           </p>
           <div className="flex flex-wrap gap-2.5">
-            {project.tags.map((tag, index) => (
+            {project.tags.map((tag) => (
               <Tag key={replaceSpaces(tag)} content={tag} />
             ))}
           </div>
